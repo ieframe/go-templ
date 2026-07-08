@@ -1,0 +1,23 @@
+package component
+
+templ Root(title string, body templ.Component) {
+	<!DOCTYPE html>
+	<html lang="en">
+		<head>
+			/* Meta */
+			<meta charset="UTF-8"/>
+			<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+			/* Author */
+			<meta name="author" content="Kenan Alić"/>
+			<meta name="author" content="ieframe@protonmail.com"/>
+			/* Stylesheet */
+			<link rel="stylesheet" href="/static/style/tailwind.min.css"/>
+			/* Head */
+			<link rel="icon" href="data:,"/>
+			<title>{ title }</title>
+		</head>
+		<body>
+			@body
+		</body>
+	</html>
+}

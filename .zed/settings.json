@@ -1,0 +1,13 @@
+{
+  /* Enable Tailwind LSP when editing .templ */
+  "languages": {
+    "Templ": { "language_servers": ["tailwindcss-language-server", "..."] },
+  },
+
+  /* Specify .templ files as html documents */
+  "lsp": {
+    "tailwindcss-language-server": {
+      "settings": { "includeLanguages": { "templ": "html" } },
+    },
+  },
+}

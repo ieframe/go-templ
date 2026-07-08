@@ -1,0 +1,4 @@
+# Build artifacts
+bin
+web/component/*.go
+web/static/style/tailwind.min.css
